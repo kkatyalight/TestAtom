@@ -4,7 +4,6 @@ import icon_address from "../../assets/icon_address.svg"
 import icon_user from "../../assets/icon_user.svg"
 import icon_arrowThin from "../../assets/icon_arrowThin.svg"
 import icon_shopCart from "../../assets/icon_shopCart.svg"
-import Dropdown from "../small_components/Dropdown";
 import SearchBar from "../small_components/SearchBar";
 import { Link } from "react-router-dom"
 import Button from "../small_components/Button"

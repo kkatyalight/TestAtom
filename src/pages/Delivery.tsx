@@ -2,10 +2,8 @@ import Footer from "../components/sections/Footer";
 import Header from "../components/sections/Header";
 import ClientCard from "../components/small_components/ClientCard";
 import Slider from "../components/small_components/Slider";
-import TextAndPhoto from "../components/small_components/TextAndPhoto";
 import { clients } from "../data";
 import delivery from '../assets/delivery.png'
-import main_services from "../assets/main_services.png"
 import logo_notext from "../assets/logo_notext.svg"
 export default function Delivery() {
     return(

@@ -2,12 +2,7 @@ import Footer from "../components/sections/Footer";
 import Header from "../components/sections/Header";
 import MainBanner from "../components/sections/MainBanner";
 import MainCatalog from "../components/sections/MainCatalog";
-import MainNews from "../components/sections/MainNews";
-import MainPopular from "../components/sections/MainPopular";
 import MainReasons from "../components/sections/MainReasons";
-import MainServices from "../components/sections/MainServices";
-import MainSpecial from "../components/sections/MainSpecial";
-import OurClients from "../components/sections/OurClients";
 import TextAndPhoto from "../components/small_components/TextAndPhoto";
 import ServicesNav from "../components/small_components/ServicesNav";
 
@@ -20,12 +15,11 @@ import ClientCard from "../components/small_components/ClientCard";
 import NewsCard from "../components/small_components/NewsCard";
 import {popular,special,clients,services,news} from '../data'
 import Button from "../components/small_components/Button";
-import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Main() {
     const navigate = useNavigate();
-     const handleServiceClick=(id:number)=>{
+     const handleServiceClick=()=>{
         // navigate(`/services/${id}`);
         navigate(`/services`);
     }
