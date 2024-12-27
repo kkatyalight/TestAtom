@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://github.com/kkatyalight/TestAtom.git',
+  base: "https://kkatyalight.github.io/TestAtom/",
   plugins: [react()],
 })
